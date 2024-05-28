@@ -1,5 +1,28 @@
 .topo img{
-    width: 500px;
+    width: 450px;
     height: 250px;
     align-items: center;
+    display: flex;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav{
+    display: flex; 
+    justify-content: center
 }
