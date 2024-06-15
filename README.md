@@ -1,40 +1,27 @@
-# Seja um(a) Herói(na) do Código e Contribua para o Site do GDG Ilhéus!
+# GDGIOS
 
-O GDG Ilhéus está abrindo as portas para desenvolvedores(as) apaixonados(as) como você! Junte-se a nós e ajude a construir um site ainda mais incrível para a nossa comunidade.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
-## Como Você Pode Contribuir
+## Development server
 
-### Criando Layouts e Interfaces
-Dê vida ao site com seu talento para design.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-### Escrevendo Conteúdo
-Compartilhe seu conhecimento através de tutoriais, artigos e outros materiais.
+## Code scaffolding
 
-### Codificando Funcionalidades
-Torne o site mais interativo e dinâmico com suas habilidades de programação.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-### Traduzindo Textos
-Ajude a levar o GDG Ilhéus para o mundo traduzindo o site para outros idiomas.
+## Build
 
-### Testando e Reportando Bugs
-Seja um(a) Sherlock Holmes do código e nos ajude a encontrar e corrigir problemas.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Para se Tornar um(a) Herói(na) do Código
+## Running unit tests
 
-1. **Acesse o repositório do GitHub:** [GDG Ilhéus no GitHub]()
-2. **Crie uma conta no GitHub:** Se ainda não tiver uma.
-3. **Solicite acesso ao repositório:** Clique em "Solicitar acesso" e envie sua mensagem.
-4. **Aguarde a aprovação:** Assim que sua solicitação for aprovada, você poderá contribuir!
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Juntos, Vamos Construir um Site que:
+## Running end-to-end tests
 
-- Informe e inspire a comunidade dev de Ilhéus.
-- Ofereça recursos valiosos para aprendizado e desenvolvimento profissional.
-- Fortaleça a conexão entre os apaixonados por tecnologia da região.
-- Seja a peça fundamental que faltava!
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Dúvidas?
+## Further help
 
-Entre em contato conosco: [Contato GDG Ilhéus]()
-
-#GDGIlheus #Contribua #SomosUmaComunidade
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

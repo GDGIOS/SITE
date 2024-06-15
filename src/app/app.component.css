@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  border: 3px solid red;
+  border-radius: 50px;
+  height: 80px;
+  /* scale: 1.5; */
+}
+
+.beneficiados {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.beneficiados > div {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.beneficiados > div > p {
+  /* width: 50%; */
+  text-align: justify;
+  font-weight: bold;
+}

@@ -1,0 +1,25 @@
+div {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+}
+
+img {
+  height: 100px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+li > a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
