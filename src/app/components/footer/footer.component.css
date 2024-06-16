@@ -1,0 +1,49 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  background-color: var(--color-gray);
+  display: flex;
+  justify-content: center;
+}
+
+.container-footer {
+  max-width: var(--max-width);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 1.5rem 0;
+}
+
+.container-footer .redes-sociais {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.container-footer .icons-redes {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.container-footer .redes-sociais a {
+  display: flex;
+  align-items: center;
+}
+.container-footer .redes-sociais img {
+  height: 1.3em;
+}
+.container-footer .redes-sociais .google img {
+  height: 1em;
+}
+
+.container-footer .container-direitos {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8em;
+}
+.container-footer .container-direitos a{
+    color: var(--color-blue);
+    text-decoration: none;
+}
