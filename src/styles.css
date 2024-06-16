@@ -2,18 +2,26 @@
 
 :root {
   --max-width: 1100px;
-  --text-color:#2f2f2f;
-  --color-blue: #4285F4;
-  --color-red: #EA4335;
-  --color-yellow: #FBBC05;
-  --color-green: #34A853;
+  --text-color: #2f2f2f;
+  --color-blue: #4285f4;
+  --color-red: #ea4335;
+  --color-yellow: #fbbc05;
+  --color-green: #34a853;
   --color-gray: #f8f9fa;
-
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: var(--text-color);
+}
+.btn {
+  background: var(--color-blue);
+  color: white;
+  padding: 0.4em 1em;
+  border-radius: 1em;
+}
+body {
+  min-height: 100vh;
 }

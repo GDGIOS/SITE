@@ -1,0 +1,32 @@
+main{
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    
+}
+.hero{
+    max-width: var(--max-width);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 40%;
+}
+
+main .description h1{
+    font-size: 4em;
+    font-weight: 900;
+}
+main .image img{
+    height: 30em;
+}
+main a{
+    text-decoration: none;
+}
