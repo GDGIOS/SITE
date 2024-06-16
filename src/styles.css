@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --max-width: 1100px;
+  --text-color:#2f2f2f;
+  --color-blue: #4285F4;
+  --color-red: #EA4335;
+  --color-yellow: #FBBC05;
+  --color-green: #34A853;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--text-color);
+}
