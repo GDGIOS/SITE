@@ -16,12 +16,13 @@
   box-sizing: border-box;
   color: var(--text-color);
 }
+
 .btn {
   background: var(--color-blue);
   color: white;
   padding: 0.4em 1em;
   border-radius: 1em;
 }
+
 body {
-  min-height: 100vh;
 }
