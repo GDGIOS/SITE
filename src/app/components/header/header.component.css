@@ -4,6 +4,8 @@ header {
   right: 0;
   display: flex;
   justify-content: center;
+  background: rgb(255, 255, 255);
+  padding: 0.5em 0;
 }
 /* .container-menu {
   max-width: var(--max-width);
