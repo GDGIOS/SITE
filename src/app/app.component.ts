@@ -8,7 +8,7 @@ import { MenuComponent } from './components/menu/menu.component';
   standalone: true,
   imports: [CommonModule, RouterOutlet, MenuComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'GDG-IOS';
