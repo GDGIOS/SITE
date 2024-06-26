@@ -54,7 +54,7 @@ main a {
   justify-content: center;
 }
 .gray {
-  padding: 1em 0;
+  padding: 1.5em 0;
   background-color: var(--color-gray);
   margin-top: 1em;
 }
@@ -69,6 +69,8 @@ main a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+
 }
 
 
@@ -77,6 +79,7 @@ main a {
   display: flex;
   justify-content: center;
   gap: 1em;
+  margin-bottom: 0.5em;
 }
 .block {
   height: 13em;
@@ -118,4 +121,11 @@ main a {
 }
 .block-blue {
   background: var(--color-blue);
+}
+
+.container-membros{
+  padding: 1.5em 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
