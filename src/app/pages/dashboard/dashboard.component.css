@@ -54,8 +54,9 @@ main a {
   justify-content: center;
 }
 .gray {
+  padding: 1em 0;
   background-color: var(--color-gray);
-  margin-bottom: 1em;
+  margin-top: 1em;
 }
 .sobre {
   width: 100%;
@@ -69,10 +70,7 @@ main a {
   flex-direction: column;
   justify-content: center;
 }
-.sobre .titulo {
-  display: flex;
-  justify-content: center;
-}
+
 
 .sobre .section {
   width: 100%;

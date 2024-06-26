@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { HeaderComponent } from '../../components/header/header.component';
 import { FooterComponent } from '../../components/footer/footer.component';
 import { FaixaComponent } from '../../components/faixa/faixa.component';
+import { CardComponent } from '../../components/card/card.component';
+import { CardListComponent } from '../../components/card-list/card-list.component';
 
 @Component({
   selector: 'app-dashboard',
@@ -9,7 +11,8 @@ import { FaixaComponent } from '../../components/faixa/faixa.component';
   imports: [
     HeaderComponent,
     FooterComponent,
-    FaixaComponent
+    FaixaComponent,
+    CardListComponent,
   ],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css'

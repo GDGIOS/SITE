@@ -1,0 +1,14 @@
+<div class="card">
+    <div class="perfil">
+        <img [src]="image" alt="">
+    </div>
+    <div class="infor">
+        <span>{{nome}}</span>
+        <small>{{cargo}}</small>
+        <div class="redes-sociais">
+            <a *ngFor="let rede of redesSociais" [href]="rede.link" target="_blank" class="icon">
+              <img [src]="rede.icone" alt="Ícone da rede social">
+            </a>
+          </div>
+    </div>
+</div>

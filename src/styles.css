@@ -26,3 +26,10 @@
 
 body {
 }
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  font-size: 1.5em;
+}
