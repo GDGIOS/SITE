@@ -39,7 +39,7 @@ footer {
 .container-footer .container-direitos {
   display: flex;
   justify-content: center;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 .container-footer .container-direitos a {
   color: var(--color-blue);
