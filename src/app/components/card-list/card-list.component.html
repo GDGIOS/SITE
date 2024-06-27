@@ -1,11 +1,12 @@
 <div class="card-list">
-
-    <div class="container-card-list">
-        <app-card *ngFor="let membro of membros"
-    [image]="membro.image"
-[nome]="membro.nome"
-[cargo]="membro.cargo"
-[redesSociais]="membro.redesSociais">
-</app-card>
-</div>
+  <div class="container-card-list">
+    <app-card
+      *ngFor="let membro of membros"
+      [image]="membro.image"
+      [nome]="membro.nome"
+      [cargo]="membro.cargo"
+      [redesSociais]="membro.redesSociais"
+    >
+    </app-card>
+  </div>
 </div>

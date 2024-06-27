@@ -22,22 +22,22 @@ interface Membro {
 export class CardListComponent {
   membros: Membro[] = [
     {
-      image: 'path/to/igor-image.png',
+      image: '../../assets/membros/carol.jpeg',
       nome: 'Ana Carol Neris Fonseca',
       cargo: 'Organizer',
       redesSociais: [
         {
           icone: '../../assets/icon_github.png',
-          link: 'https://facebook.com/igor',
+          link: '#',
         },
         {
           icone: '../../assets/icon_linkedin.png',
-          link: 'https://linkedin.com/in/igor',
+          link: '#',
         },
       ],
     },
     {
-      image: '../../assets/membros/beatriz.jpg',
+      image: '../../assets/membros/beatriz.jpeg',
       nome: 'Beatriz Pereira Aragão',
       cargo: 'Organizer',
       redesSociais: [
@@ -52,7 +52,7 @@ export class CardListComponent {
       ],
     },
     {
-      image: 'path/to/joao-image.png',
+      image: '../../assets/membros/luis.jpeg',
       nome: 'Luis Eduardo Barbosa Soares Rocha',
       cargo: 'Organizer',
       redesSociais: [
@@ -67,7 +67,7 @@ export class CardListComponent {
       ],
     },
     {
-      image: 'path/to/joao-image.png',
+      image: '../../assets/membros/nathalie.jpeg',
       nome: 'Náthalie Lima Bomfim',
       cargo: 'Organizer',
       redesSociais: [
