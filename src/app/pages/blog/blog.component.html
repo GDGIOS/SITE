@@ -1,1 +1,85 @@
 
+<header id="page">
+    <img id="logo" src="../../../assets/logo-gdgilheus.png" alt="">
+    <nav>
+        <ul>
+            <li>Parceiros</li>
+            <li>BLOG</li>
+            <li>Teste</li>
+            <li>Teste</li>
+            <li>DEVFEST</li>
+            <li id="contact-us">Contate-nos</li>
+        </ul>
+    </nav>
+</header>
+
+<main id="page">
+  <header>
+    <h1>Blog</h1>
+    <!-- pessoas que só precisam de uma oportunidade -->
+    <p>Confira as novidades do GDG</p>
+
+
+  </header>
+  <app-search/>
+
+
+  <div class="categories">
+      <ul>
+          <li id="clicked">Categoria 1</li>
+          <li>Categoria 2</li>
+          <li>Categoria 3</li>
+          <li>Categoria 4</li>
+          <li>Categoria 5</li>
+      </ul>
+  </div>
+
+    <div class="posts">
+        <section>
+            <header>
+                <h4>Categoria 1</h4>
+                <hr>
+                <h6>Veja mais</h6>
+            </header>
+
+            <main>
+              <app-post
+                [imageSrc]="'../../assets/post-thumb1.png'"
+                [imageAlt]="'Imagem do post 1'"
+                [title]="'Titulo do Post 1'"
+                [description]="'Descrição do post 1'"
+                [time]="'1 minuto'"
+              />
+
+              <app-post
+                [imageSrc]="'../../assets/post-thumb2.png'"
+                [imageAlt]="'Imagem do post 2'"
+                [title]="'Titulo do Post 2'"
+                [description]="'Descrição do post 2'"
+                [time]="'1 minuto'"
+              />
+
+
+            </main>
+        </section>
+
+
+    </div>
+
+    <div class="newsletter">
+        <img src="" alt="">
+        <h2>Assine nossa newsletter</h2>
+        <p>Receba as novidades do blog no seu e-mail</p>
+        <input type="email" placeholder="Digite seu e-mail">
+        <button>Assinar</button>
+    </div>
+
+</main>
+
+<footer>
+    <p>Desenvolvido por GDG</p>
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+
+</footer>

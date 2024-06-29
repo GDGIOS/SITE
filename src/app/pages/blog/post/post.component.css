@@ -1,0 +1,33 @@
+a {
+  text-decoration: none;
+}
+
+article {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.infos {
+}
+
+.infos h2 {
+  font-weight: 600;
+}
+
+.infos div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infos div p {
+  color: gray;
+}
+

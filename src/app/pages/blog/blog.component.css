@@ -1,0 +1,113 @@
+a {
+  text-decoration: none;
+}
+
+hr {
+  flex: 1;
+  height: 0;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+header#page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header#page nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  align-items: center;
+}
+
+img#logo {
+  height: 50px;
+}
+
+li#contact-us {
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  background: linear-gradient(to right, rgb(88, 88, 255), blue);
+  cursor: pointer;
+  transition: 0.5s;
+  scale: 1.1;
+}
+
+main#page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+main > header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 300px;
+  background-image: url('../../../assets/blog-background.jpg');
+  background-repeat: round;
+}
+
+main > header h1, main > header p {
+  color: white;
+}
+
+main > header h1 {
+  letter-spacing: 5px;
+}
+
+app-search {
+  align-self: center;
+}
+
+main div.categories ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main div.categories ul li {
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+main div.categories ul li#clicked {
+  background-color: rgb(191, 191, 191);
+}
+
+main div.categories ul li:hover {
+  scale: 1.1;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+div.posts {
+  padding: 0px 150px;
+
+}
+
+div.posts section header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 5px 0px;
+}
+
+div.posts section main {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+
+
+
+
+
