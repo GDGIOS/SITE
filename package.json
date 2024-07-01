@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --configuration production --base-href='./'",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:GDG-IOS": "node dist/gdg-ios/server/server.mjs"
@@ -21,6 +21,7 @@
     "@angular/platform-server": "^17.0.0",
     "@angular/router": "^17.0.0",
     "@angular/ssr": "^17.0.7",
+    "@emailjs/browser": "^4.3.3",
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

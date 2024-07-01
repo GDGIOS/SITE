@@ -1,7 +1,9 @@
 .container-contact{
     width: 100%;
-    min-height: 800px;
-    height: 800px;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+
     background: linear-gradient(-15deg, white 50%, var(--color-green) 50%);
 }
 .container-contact .box{
@@ -31,4 +33,7 @@
 
 .container-contact .form-wrapper{
     width: 100%;
+}
+.container-contact .app-footer{
+    margin-top: auto;
 }

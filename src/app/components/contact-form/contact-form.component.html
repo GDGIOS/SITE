@@ -1,17 +1,39 @@
 <div class="form-cadastro">
+  <form action="" [formGroup]="formContact" (submit)="send()"  >
+    <h1>Entre em Contato</h1>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      placeholder="Digite seu nome"
+      formControlName="from_name"
+    />
 
-    <form action="">
-        <h1>Entre em Contato</h1>
-    <input type="text" id="name" name="name" placeholder="Digite seu nome" />
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="Digite seu e-mail"
+      formControlName="from_email"
+    />
+    <input
+      type="text"
+      id="subject"
+      name="subject"
+      placeholder="subject"
+      formControlName="subject"
+    />
 
-<input type="email" id="email" name="email" placeholder="Digite seu e-mail" />
+    <textarea
+      id="message"
+      name="message"
+      placeholder="Digite sua mensagem"
+      formControlName="message"
+    ></textarea>
 
-<textarea
-id="message"
-name="message"
-placeholder="Digite sua mensagem"
-></textarea>
-
-<button type="submit" class="btn">Enviar</button>
-</form>
+    <button type="submit" class="btn">Enviar</button>
+  </form>
+  <div *ngIf="loaded" class="wrapper-loader">
+    <div class="loader"></div>
+  </div>
 </div>

@@ -10,11 +10,10 @@
   --color-gray: #f8f9fa;
 }
 @font-face {
-  font-family: 'Google';
-  src: url('fonts/GoogleSansDisplay-Regular.ttf')  format('truetype');
+  font-family: "Google";
+  src: url("fonts/GoogleSansDisplay-Regular.ttf") format("truetype");
   font-weight: 500;
-  }
-
+}
 
 * {
   margin: 0;
@@ -29,10 +28,11 @@
   color: white;
   padding: 0.4em 1em;
   border-radius: 1em;
+  cursor: pointer;
 }
 
 body {
-  font-family: 'Google';
+  font-family: "Google";
 }
 .titulo {
   display: flex;
