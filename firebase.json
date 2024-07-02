@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "dist/gdg-ios/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "us-central1"
+    }
+  }
+}
