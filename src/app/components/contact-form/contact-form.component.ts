@@ -19,7 +19,7 @@ export class ContactFormComponent {
 
   constructor(private forms: FormBuilder) { 
     this.formContact = this.forms.group({
-      from_name: new FormControl({ value: '', disabled: true }),
+      from_name: new FormControl({ value: '', disabled: this.loaded }),
       from_email: new FormControl({ value: '', disabled: this.loaded }),
       subject: new FormControl({ value: '', disabled: this.loaded }),
       message: new FormControl({ value: '', disabled: this.loaded })
