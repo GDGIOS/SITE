@@ -3,11 +3,10 @@ footer {
   background-color: var(--color-gray);
   display: flex;
   justify-content: center;
+  
 }
 
 .container-footer {
-  max-width: var(--max-width);
-  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 0.5em;

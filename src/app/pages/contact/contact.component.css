@@ -4,13 +4,13 @@
     display: flex;
     flex-direction: column;
 
-    background: linear-gradient(-15deg, white 50%, var(--color-green) 50%);
+    background: linear-gradient(195deg, white 50%, var(--color-gray) 50%);
 }
 .container-contact .box{
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 .container-contact .form{
     background: white;

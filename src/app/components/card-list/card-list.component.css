@@ -4,8 +4,6 @@
     justify-content: center;
 }
 .container-card-list {
-    max-width: var(--max-width);
-    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
