@@ -49,4 +49,14 @@ header {
 .menu-pop-up >a:hover{
   background: var(--color-gray);
 }
-
+.menu >button{
+  padding: 0.5em;
+  background: none;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.menu >button:hover{
+  background: var(--color-gray);
+}
