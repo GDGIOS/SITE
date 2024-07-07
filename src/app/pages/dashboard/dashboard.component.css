@@ -133,7 +133,6 @@ main a {
     display: none;
   }
 
-
   .hero {
     display: flex;
     flex-direction: column;
@@ -145,5 +144,8 @@ main a {
     justify-content: center;
     gap: 1.5rem;
     width: 100%;
+  }
+  .block {
+    display: none;
   }
 }
