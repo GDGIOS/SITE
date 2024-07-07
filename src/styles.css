@@ -47,3 +47,20 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+
+.mobile-only{
+  display: none;
+}
+
+.desktop-only{
+}
+
+@media (max-width: 700px) {
+  .mobile-only{
+    display: block;
+  }
+
+  .desktop-only{
+    display: none;
+  }
+}
