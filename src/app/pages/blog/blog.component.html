@@ -83,3 +83,20 @@
     <img src="" alt="">
 
 </footer>
+
+
+<form (ngSubmit)="onSubmit()" #form="ngForm">
+  <label for="">Nome: </label>
+  <input type="text" [(ngModel)]="nome" name="nome">
+
+  <label for="">Email: </label>
+  <input type="text" [(ngModel)]="email" name="email">
+
+  <label for="">Escreva o texto: </label>
+  <input type="text" [(ngModel)]="mensagem" name="mensagem">
+
+  <!-- <button type="submit" [disabled]="!form.form.valid">
+    Save
+  </button> -->
+  <button type="submit">Enviar</button>
+</form>
