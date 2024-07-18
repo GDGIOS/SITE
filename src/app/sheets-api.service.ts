@@ -1,5 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
+import apiKeys from '../../api-keys';
+
 
 @Injectable({
   providedIn: 'root',
@@ -9,7 +11,7 @@ export class SheetsApiService
 {
   http = inject(HttpClient);
   url: string = 'https://api.airtable.com/v0/appJBgVq9hzThbkJf/Respostas';
-  token: string = 'patzmcWCtyVe8CWDe.880bf251be7c8662467f9bd892eae5a92ff346cefa22dc7a1deccdb135500d80';
+  token: string = apiKeys.Airtable;
 
   async postDataAirtable(nome: string, email: string, mensagem: string)
   {
