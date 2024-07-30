@@ -37,3 +37,13 @@
 .container-contact .app-footer{
     margin-top: auto;
 }
+
+@media (max-width: 600px){
+    .container-contact .form{
+        flex-direction: column;
+        gap: 2em;
+    }
+    .container-contact .form img{
+        width: 100%;
+    }
+}
