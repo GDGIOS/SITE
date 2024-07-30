@@ -1,9 +1,10 @@
 <div class="form-cadastro">
-  <form action="" [formGroup]="formContact" (submit)="send()"  >
+  <form action="" [formGroup]="formContact" (submit)="sendApi()">
     <h1>Entre em Contato</h1>
     <input
       type="text"
       id="name"
+      required
       name="name"
       placeholder="Digite seu nome"
       formControlName="from_name"
@@ -12,6 +13,7 @@
     <input
       type="email"
       id="email"
+      required
       name="email"
       placeholder="Digite seu e-mail"
       formControlName="from_email"
@@ -19,13 +21,15 @@
     <input
       type="text"
       id="subject"
+      required
       name="subject"
-      placeholder="subject"
+      placeholder="Digite o assunto"
       formControlName="subject"
     />
 
     <textarea
       id="message"
+      required
       name="message"
       placeholder="Digite sua mensagem"
       formControlName="message"

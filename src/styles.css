@@ -56,7 +56,13 @@ body {
   display: none;
 }
 
-.desktop-only{
+textarea{
+  resize: none;
+  font-family: "Google";
+}
+input{
+  font-family: "Google";
+
 }
 
 @media (max-width: 700px) {
