@@ -28,11 +28,11 @@ export class CardListComponent {
       redesSociais: [
         {
           icone: '../../assets/icon_github.png',
-          link: '#',
+          link: 'https://github.com/CarolineNeris',
         },
         {
           icone: '../../assets/icon_linkedin.png',
-          link: '#',
+          link: 'https://www.linkedin.com/in/anacarolinefonseca/',
         },
       ],
     },
@@ -58,11 +58,11 @@ export class CardListComponent {
       redesSociais: [
         {
           icone: '../../assets/icon_github.png',
-          link: 'https://facebook.com/joao',
+          link: 'https://github.com/eduardsroch',
         },
         {
           icone: '../../assets/icon_linkedin.png',
-          link: 'https://linkedin.com/in/joao',
+          link: 'https://www.linkedin.com/in/eduardsroch/',
         },
       ],
     },
@@ -73,11 +73,11 @@ export class CardListComponent {
       redesSociais: [
         {
           icone: '../../assets/icon_github.png',
-          link: 'https://facebook.com/joao',
+          link: 'https://github.com/NathalieLima',
         },
         {
           icone: '../../assets/icon_linkedin.png',
-          link: 'https://linkedin.com/in/joao',
+          link: 'https://www.linkedin.com/in/nathalie-lima3/',
         },
       ],
     },
