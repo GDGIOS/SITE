@@ -84,7 +84,7 @@ export class CardListComponent {
     {
       image: '../../assets/membros/semfoto.jpg',
       nome: 'Diogo Cerqueira',
-      cargo: 'Organizer',
+      cargo: 'Membro',
       redesSociais: [
         {
           icone: '../../assets/icon_github.png',
@@ -114,7 +114,7 @@ export class CardListComponent {
     {
       image: '../../assets/membros/mateus.jpeg',
       nome: 'Matheus Nascimento',
-      cargo: 'Organizer',
+      cargo: 'Membro',
       redesSociais: [
         {
           icone: '../../assets/icon_github.png',
@@ -129,7 +129,7 @@ export class CardListComponent {
     {
       image: '../../assets/membros/joao.jpeg',
       nome: 'João Manoel A.',
-      cargo: 'Organizer',
+      cargo: 'Membro',
       redesSociais: [
         {
           icone: '../../assets/icon_github.png',
