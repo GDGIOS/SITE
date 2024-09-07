@@ -81,5 +81,66 @@ export class CardListComponent {
         },
       ],
     },
+    {
+      image: '../../assets/membros/semfoto.jpg',
+      nome: 'Diogo Cerqueira',
+      cargo: 'Organizer',
+      redesSociais: [
+        {
+          icone: '../../assets/icon_github.png',
+          link: 'https://github.com/nwiry',
+        },
+        {
+          icone: '../../assets/icon_linkedin.png',
+          link: 'https://www.linkedin.com/in/diogocerq/',
+        },
+      ],
+    },
+    {
+      image: '../../assets/membros/everaldina.jpeg',
+      nome: 'Everaldina Guimarães Barbosa',
+      cargo: 'Membro',
+      redesSociais: [
+        {
+          icone: '../../assets/icon_github.png',
+          link: 'https://github.com/everaldina',
+        },
+        {
+          icone: '../../assets/icon_linkedin.png',
+          link: 'https://www.linkedin.com/in/everaldina-barbosa',
+        },
+      ],
+    },
+    {
+      image: '../../assets/membros/mateus.jpeg',
+      nome: 'Matheus Nascimento',
+      cargo: 'Organizer',
+      redesSociais: [
+        {
+          icone: '../../assets/icon_github.png',
+          link: 'https://github.com/mfnswdev',
+        },
+        {
+          icone: '../../assets/icon_linkedin.png',
+          link: 'https://www.linkedin.com/in/planningwiththeus/',
+        },
+      ],
+    },
+    {
+      image: '../../assets/membros/joao.jpeg',
+      nome: 'João Manoel A.',
+      cargo: 'Organizer',
+      redesSociais: [
+        {
+          icone: '../../assets/icon_github.png',
+          link: 'https://github.com/John-Parsec',
+        },
+        {
+          icone: '../../assets/icon_linkedin.png',
+          link: 'https://www.linkedin.com/in/jmaoliveira',
+        },
+      ],
+    },
+
   ];
 }
