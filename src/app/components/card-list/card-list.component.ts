@@ -24,7 +24,7 @@ export class CardListComponent {
     {
       image: '../../assets/membros/carol.jpeg',
       nome: 'Ana Carol Neris Fonseca',
-      cargo: 'Organizer',
+      cargo: 'Organizadora',
       redesSociais: [
         {
           icone: '../../assets/icon_github.png',
@@ -39,7 +39,7 @@ export class CardListComponent {
     {
       image: '../../assets/membros/beatriz.jpeg',
       nome: 'Beatriz Pereira Aragão',
-      cargo: 'Organizer',
+      cargo: 'Organizadora',
       redesSociais: [
         {
           icone: '../../assets/icon_github.png',
@@ -54,7 +54,7 @@ export class CardListComponent {
     {
       image: '../../assets/membros/luis.jpeg',
       nome: 'Luis Eduardo Barbosa Soares Rocha',
-      cargo: 'Organizer',
+      cargo: 'Organizador',
       redesSociais: [
         {
           icone: '../../assets/icon_github.png',
@@ -69,7 +69,7 @@ export class CardListComponent {
     {
       image: '../../assets/membros/nathalie.jpeg',
       nome: 'Náthalie Lima Bomfim',
-      cargo: 'Organizer',
+      cargo: 'Organizadora',
       redesSociais: [
         {
           icone: '../../assets/icon_github.png',
